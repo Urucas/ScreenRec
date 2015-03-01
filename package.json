@@ -4,7 +4,7 @@
   "description": "osx screen recording with node",
   "main": "node/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/mocha/bin/mocha test/* --compilers js:babel/register -t 15s --require mocha-clean"
   },
   "repository": {
     "type": "git",
@@ -29,5 +29,9 @@
   "dependencies": {
     "applescript": "^1.0.0",
     "babel": "^4.6.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "mocha-clean": "^0.4.0"
   }
 }
