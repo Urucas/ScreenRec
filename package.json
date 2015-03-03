@@ -27,8 +27,8 @@
   },
   "homepage": "https://github.com/Urucas/screenrec",
   "dependencies": {
-    "applescript": "^1.0.0",
-    "babel": "^4.6.3"
+    "babel": "^4.6.3",
+    "colors": "^1.0.3"
   },
   "devDependencies": {
     "mocha": "^2.1.0",
