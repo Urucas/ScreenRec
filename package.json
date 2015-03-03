@@ -33,5 +33,8 @@
   "devDependencies": {
     "mocha": "^2.1.0",
     "mocha-clean": "^0.4.0"
+  },
+  "bin": {
+    "screenrec": "./bin/slackin"
   }
 }
