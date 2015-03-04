@@ -28,13 +28,14 @@
   "homepage": "https://github.com/Urucas/screenrec",
   "dependencies": {
     "babel": "^4.6.3",
-    "colors": "^1.0.3"
+    "colors": "^1.0.3",
+    "keypress": "^0.2.1"
   },
   "devDependencies": {
     "mocha": "^2.1.0",
     "mocha-clean": "^0.4.0"
   },
   "bin": {
-    "screenrec": "./bin/slackin"
+    "screenrec": "./bin/screenrec"
   }
 }
