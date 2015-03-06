@@ -36,3 +36,6 @@ ScreenRec is build on ES6 make sure to convert to ES5 to test the examples
 make clean && make
 node examples/wait4key.js
 ```
+
+====================
+<img src="https://raw.githubusercontent.com/Urucas/ScreenRec/master/examples/1425613392517.gif" width="500" height="auto" />
