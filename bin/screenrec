@@ -1,3 +1,29 @@
 #!/usr/bin/env node
-var screenrec = require('../node/');
-screenrec({time:4, silent:true, wait4key:true, togif:false});
+var ScreenRec = require('../node/');
+
+/* 
+ * save screen until [ctrl + c] is pressed
+ *
+var app = new ScreenRec({wait4key:true});
+    app.rec();
+
+/*
+ */
+
+/* 
+ * save 10 seconds video
+ *
+var app = new ScreenRec({time:10});
+    app.rec();
+
+/*
+ */
+
+/*
+ * save 7 seconds video & export to gif
+ */
+var app = new ScreenRec({time:7, togif: true});
+    app.rec();
+
+/*
+ */
