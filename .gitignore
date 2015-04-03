@@ -28,3 +28,7 @@ node
 
 # Users Environment Variables
 .lock-wscript
+
+# Generated files
+*.avi
+*.gif
