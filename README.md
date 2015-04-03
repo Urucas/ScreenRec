@@ -1,4 +1,4 @@
-# screenrec [![Build Status](https://travis-ci.org/Urucas/screenrec.svg?branch=master)](https://travis-ci.org/Urucas/screenrec)
+# screenrec <img src="https://travis-ci.org/Urucas/ScreenRec.svg?branch=master" />
 osx simple screen recording module
 
 
@@ -38,4 +38,4 @@ node examples/wait4key.js
 ```
 
 ====================
-<img src="https://raw.githubusercontent.com/Urucas/ScreenRec/master/examples/1425613392517.gif" width="500" height="auto" />
+<img src="https://raw.githubusercontent.com/Urucas/ScreenRec/master/examples/example.gif" width="640" height="auto" />
