@@ -1,10 +1,12 @@
 {
   "name": "screenrec",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "osx screen recording with node",
   "main": "node/index.js",
   "scripts": {
-    "test": "node_modules/mocha/bin/mocha test/* --compilers js:babel/register -t 15s --require mocha-clean"
+    "test": "node_modules/mocha/bin/mocha test/* --compilers js:babel/register -t 15s --require mocha-clean",
+    "prestart": "make clean && make",
+    "start": "node bin/screenrec"
   },
   "repository": {
     "type": "git",

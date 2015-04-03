@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 var ScreenRec = require('../node/');
-var app = new ScreenRec({wait4key:true});
+var app = new ScreenRec({wait4key:true, silent:false, togif: true});
     app.rec();
 
 
