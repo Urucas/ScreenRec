@@ -23,8 +23,9 @@ let sr = new ScreenRec({
   time,     // seconds
   output,   // output filename
   silent,   // hide log
-  togif,    // convert avi to gif
+  togif,    // convert mpg to gif
   wait4key  // wait for ctrl + c to stop recording
+  url       // opens an url into the default browser to record
 });
 ```
 
