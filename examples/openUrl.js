@@ -3,5 +3,5 @@
  */
 
 var ScreenRec = require('../node/');  
-var app = new ScreenRec({wait4key:true, url:"http://www.netflix.com", togif:true, silent:false});
+var app = new ScreenRec({time:20, url:"https://github.com/Urucas/chrome-inspect-devices-quick-access", togif:true, silent:false});
     app.rec();
