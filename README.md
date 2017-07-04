@@ -24,7 +24,7 @@ let sr = new ScreenRec({
   output,   // output filename
   silent,   // hide log
   togif,    // convert mpg to gif
-  wait4key  // wait for ctrl + c to stop recording
+  wait4key,  // wait for ctrl + c to stop recording
   url       // opens an url into the default browser to record
 });
 ```
